@@ -40,3 +40,15 @@ Session-IDs zufällig und lang wählen, HTTPS erzwingen, Sessions nach Inaktivit
 Angreifer überlasten eine Webanwendung oder einen Server gezielt, sodass legitime Nutzer keinen Zugriff mehr haben.
 
 Um sich zu schützen sollte man Firewalls einsetzen, Anfragenraten begrenzen (Rate Limiting) und Cloud-basierte Schutzdienste nutzen.
+
+### Verschlüsselung (Transport Layer Security - TLS/SSL)
+
+TLS (der Nachfolger von SSL) verschlüsselt die gesamte Kommunikation zwischen dem Webbrowser des Benutzers und dem Webserver.
+
+### Multifaktor-Authentifizierung (MFA)
+
+Ein Benutzer muss zwei oder mehr unabhängige Verifikationsfaktoren vorlegen, um Zugriff zu erhalten.
+
+### Prepared Statements / Parametrisierte Abfragen
+
+Die Abfragestruktur wird vorab definiert und die Benutzerdaten werden separat als Parameter an die Datenbank übergeben. Die Datenbank behandelt die Eingabedaten dann strikt als Daten und nicht als ausführbaren Code.
